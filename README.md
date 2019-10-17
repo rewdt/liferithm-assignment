@@ -1,16 +1,14 @@
 Liferithms Challenge
 
-![Test Image 1](3DTest.png)
+![android shot 1](https://github.com/rewdt/liferithm-assignment/blob/master/Assets/Screenshot_1571290405.png)
 
-![Test Image 2]("3DTest.png")
+![android shot 2](https://github.com/rewdt/liferithm-assignment/blob/master/Assets/Screenshot_1571290418.png)
 
-![Test Image 3](/3DTest.png)
+![android shot 3](https://github.com/rewdt/liferithm-assignment/blob/master/Assets/Screenshot_1571290432.png)
 
-![Test Image 4](https://github.com/tograh/testrepository/3DTest.png)
+![signin](https://github.com/rewdt/liferithm-assignment/blob/master/Assets/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202019-10-17%20at%2006.38.25.png)
 
-![Test Image 5](https://.../3DTest.png)
-
-![Test Image 6](master/3DTest.png)
+![Sign up](https://github.com/rewdt/liferithm-assignment/blob/master/Assets/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202019-10-17%20at%2006.38.34.png)
 
 ## How to build and run it yourself
 
