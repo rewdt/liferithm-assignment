@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "235174495069",
+    "firebase_url": "https://liferithms-challenge.firebaseio.com",
+    "project_id": "liferithms-challenge",
+    "storage_bucket": "liferithms-challenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235174495069:android:021ef1b2121281c78b5eb4",
+        "android_client_info": {
+          "package_name": "com.liferithmschallenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235174495069-4g0flo3njgege2n40t5osqf07jpie9lr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABmewkR6mACLQgskhxVZ0oGa5U6UtWDlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235174495069-4g0flo3njgege2n40t5osqf07jpie9lr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "235174495069-duskeav4ktemcnhscmi9fci52vmeuvme.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.liferithmschallenge"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

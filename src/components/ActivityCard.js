@@ -23,8 +23,12 @@ class ActivityCard extends Component {
           </TouchableOpacity>
         </View>
         <View style={styles.bodyContainer}>
-          <Text>{item.name}</Text>
-          <Text>{date.toString()}</Text>
+          <Text style={styles.Title}>{item.name}</Text>
+          <Text>{item.description}</Text>
+          <View style={styles.dateContainer}>
+            <Text>{date.toLocaleDateString()}</Text>
+            <Text>{date.toLocaleTimeString()}</Text>
+          </View>
         </View>
         <View style={[styles.iconContainer, { alignItems: "flex-end" }]}>
           <TouchableOpacity
@@ -42,7 +46,7 @@ const styles = StyleSheet.create({
   surface: {
     padding: 8,
     marginVertical: 10,
-    height: 80,
+    // height: 80,
     width: "90%",
     flexDirection: "row",
     alignSelf: "center",
@@ -56,6 +60,17 @@ const styles = StyleSheet.create({
   bodyContainer: {
     flex: 5,
     justifyContent: "space-evenly"
+  },
+  dateContainer: {
+    flex: 1,
+    flexDirection: "row",
+    justifyContent: "space-between"
+  },
+  Title: {
+    color: "#000",
+    fontSize: 15,
+    fontWeight: "500",
+    textTransform: "capitalize"
   }
 });
 

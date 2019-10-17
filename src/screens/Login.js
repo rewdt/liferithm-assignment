@@ -11,8 +11,11 @@ class Login extends Component {
   };
   onSubmit = async () => {
     const { email, password } = this.state;
+    if (email.length < 6 || password.length < 6) {
+      return alert("your field is too short");
+    }
     try {
-      await auth().createUserWithEmailAndPassword(email, password);
+      await auth().signInWithEmailAndPassword(email, password);
     } catch (e) {
       console.warn(e.message);
     }
@@ -33,6 +36,8 @@ class Login extends Component {
             label="Password"
             style={styles.inputStyle}
             value={password}
+            textContentType="password"
+            secureTextEntry
             onChangeText={password => this.setState({ password })}
           />
         </View>

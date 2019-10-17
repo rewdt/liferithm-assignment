@@ -33,7 +33,7 @@ class AddActivity extends Component {
     // console.warn(date);
     // date = date || this.state.date;
     this.setState({
-      // show: Platform.OS === "ios" ? true : false,
+      show: Platform.OS === "ios" ? true : false,
       date
     });
   };
@@ -72,6 +72,7 @@ class AddActivity extends Component {
               <View style={styles.inputContainer}>
                 <Text>Name</Text>
                 <TextInput
+                  onFocus={() => this.setState({ show: false })}
                   value={name}
                   onChangeText={name => this.setState({ name })}
                   placeholder="name"
@@ -128,9 +129,11 @@ class AddActivity extends Component {
                   </View>
                 </View>
               </View>
-              <View style={[styles.inputContainer, { height: 150 }]}>
+              <View style={[styles.inputContainer, { height: 130 }]}>
                 <Text>Description</Text>
                 <TextInput
+                  ref={ref => (this.descref = ref)}
+                  onFocus={() => this.setState({ show: false })}
                   placeholder="description"
                   value={description}
                   onChangeText={description => this.setState({ description })}
@@ -184,13 +187,13 @@ const styles = StyleSheet.create({
     textAlignVertical: "top"
   },
   inputContainer: {
-    height: 60,
+    height: 50,
     width: "95%",
     justifyContent: "space-evenly",
     marginVertical: 10
   },
   submitContainer: {
-    backgroundColor: "#395AFF",
+    backgroundColor: "#2B2D5B",
     height: 40,
     width: 40,
     borderRadius: 50,
