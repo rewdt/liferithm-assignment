@@ -1,4 +1,16 @@
-# Titanium Movie List demo
+Liferithms Challenge
+
+![Test Image 1](3DTest.png)
+
+![Test Image 2]("3DTest.png")
+
+![Test Image 3](/3DTest.png)
+
+![Test Image 4](https://github.com/tograh/testrepository/3DTest.png)
+
+![Test Image 5](https://.../3DTest.png)
+
+![Test Image 6](master/3DTest.png)
 
 ## How to build and run it yourself
 
@@ -53,5 +65,22 @@ react-native run-ios
 ```
 
 ```
+
+```
+
+6. For your convenience I have created a login account for ease of access
+   email:
+
+```
+
+someone@mail.com
+
+```
+
+password:
+
+```
+
+password
 
 ```
